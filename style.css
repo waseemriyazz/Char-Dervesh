@@ -100,6 +100,7 @@ a, .header-links ul {
     flex: 1;
 }
 .illustration-text ul {
+    list-style-type: none;
     
     width: 500px;
     padding: 2px;
