@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+.header {
+    background-color: #F2EE9D;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+.head-container {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+a, .header-links ul {
+    text-decoration: none;
+    list-style: none;
+    color: #7A9D54;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.header-links {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    
+
+}
+.logo {
+
+    font-family: Audiowide , sans-serif;
+    font-size: 24px;
+    color: #7A9D54;
+}
+.head-main {
+   
+    gap: 8px;
+    display: flex;
+    
+   
+    
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #719c43;
+}
+.subtitle { 
+    font-size: 18px;
+    color: #7A9D54;
+    padding-bottom: 20px;
+}
+.head-right img {
+
+    border-radius: 10px;
+    flex: 1;
+    
+    
+
+}
+.head-left {
+    flex : 1;
+  
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-bottom: 10%;
+    
+}
+.info-block {
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+}
+.illustration img {
+    
+    border-radius: 4px;
+    flex: 1;
+}
+.illustration-text ul {
+    
+    width: 500px;
+    padding: 2px;
+    font-size: 24px;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+.words {
+
+    padding: 10%;
+    padding-bottom: 0%;
+    
+    font-size: 36px;
+    font-style: italic;
+    justify-self: center;
+    align-self: center;
+}
+.author {
+    justify-self: end;
+    align-self: self-end;
+    margin-right: 20%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8C3333;
+    color: #E5E7EB;
+    padding: 2%;
+    font-size: 24px;
+}
