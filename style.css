@@ -99,9 +99,8 @@ a, .header-links ul {
     border-radius: 4px;
     flex: 1;
 }
-.illustration-text ul {
+.illustration-text ul { 
     list-style-type: none;
-    
     width: 500px;
     padding: 2px;
     font-size: 24px;
